@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/ams")
+@CrossOrigin("*")
 public class ProviderController {
     @Autowired
     IProviderService providerService;
